@@ -243,3 +243,19 @@ footer {
     padding: 1rem 0.5rem;
   }
 } 
+
+@media (min-width:950px) and (max-width:1150px){
+  .section img{
+    width: 100px;
+  }
+}
+@media(max-width:950px){
+  .Section img {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+
+
